@@ -1,0 +1,24 @@
+*{
+   margin: 0;
+}
+
+.shadow::after{
+   content: "";
+   position: absolute;
+   left: 0;
+   top: 0;
+   height: 100%;
+   width: 100%;
+   background-color: black;
+   opacity: .3;
+}
+
+.hot{
+   right: 5px;
+}
+
+.card-shadow{
+   box-shadow: 5px 30px 40px rgb(155, 166, 229);
+}
+
+
